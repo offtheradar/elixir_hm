@@ -5,7 +5,7 @@ defmodule TextClient.Interact do
   def start() do
     Hangman.new_game()
     |> setup_state()
-    |> PLayer.play()
+    |> Player.play()
   end
 
   defp setup_state(game) do
