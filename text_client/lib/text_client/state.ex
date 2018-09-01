@@ -7,5 +7,4 @@ defmodule TextClient.State do
   )
 
 
-
 end
