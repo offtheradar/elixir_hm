@@ -3,7 +3,7 @@ defmodule Dictionary.WordList do
   @me __MODULE__
 
   def start_link() do
-    Agent.start(&start/0, name: @me)
+    Agent.start_link(&start/0, name: @me)
   end
 
   def random_word() do
